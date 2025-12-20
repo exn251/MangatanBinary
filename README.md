@@ -44,7 +44,7 @@ https://github.com/user-attachments/assets/38c63c86-289d-45a4-ba85-e29f1b812ceb
 7.  **Start Reading:**
     * Go to the **"Sources"** tab, click your installed source, and find a manga.
     * **OCR is automatically active!** You can use tools like Yomitan immediately.
-* For Yomitan Users: To ensure sentences are parsed correctly for Anki cards, go to Text parsing in Yomitan's settings (enable Advanced), and set Sentence Termination to "Custom, No New Lines". This prevents OCR line breaks from being treated as sentence endings.
+* For Yomitan Users: To ensure sentences are parsed correctly for Anki cards, go to Text parsing in Yomitan's settings (enable Advanced), and set Sentence Termination to "Custom, No New Lines". This prevents OCR line breaks from being treated as sentence endings. Disabling ellipsis `…` as a sentence terminator is also recommended.
 
 ## Local Manga
 You can also read manga files stored locally on your device. To set up local manga:  
