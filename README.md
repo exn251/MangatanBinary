@@ -46,6 +46,13 @@ https://github.com/user-attachments/assets/38c63c86-289d-45a4-ba85-e29f1b812ceb
     * **OCR is automatically active!** You can use tools like Yomitan immediately.
 * For Yomitan Users: To ensure sentences are parsed correctly for Anki cards, go to Text parsing in Yomitan's settings (enable Advanced), and set Sentence Termination to "Custom, No New Lines". This prevents OCR line breaks from being treated as sentence endings.
 
+## Local Manga
+You can also read manga files stored locally on your device:
+* Android Internal Storage: Use paths like `/storage/emulated/0/YourFolder/`
+* Android SD Cards: Use `/storage/[SD_CARD_ID]/YourFolder/` where [SD_CARD_ID] is the unique identifier Android assigned to your SD card (you can find this using file manager apps like X-plore)
+* Windows: The default local manga directory is at C:\Users\[YourUsername]\AppData\Local\Tachidesk\local)
+### Important : Your manga must follow a specific folder structure to be detected properly.
+Refer to the [Suwayomi Local Source documentation](https://github.com/Suwayomi/Suwayomi-Server/wiki/Local-Source#folder-structure) for details on how to structure your folders.
 ## Troubleshooting
 
 To fully clear cache and data from previous installs, delete the following folders and try again:
